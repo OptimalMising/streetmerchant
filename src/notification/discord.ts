@@ -28,12 +28,12 @@ export function sendDiscordMessage(link: Link, store: Store) {
 				const embed = new Discord.MessageEmbed()
 					.setTitle('_**Stock alert!**_')
 					.setDescription(
-						'> provided by [streetmerchant](https://github.com/jef/streetmerchant) with :heart:'
+						'** Stock Alert **',
 					)
 					.setThumbnail(
 						'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
 					)
-					.setColor('#52b788')
+					.setColor('#00CC00')
 					.setTimestamp();
 
 				embed.addField('Store', store.name, true);
@@ -49,7 +49,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
 				embed.addField('Model', link.model, true);
 				embed.addField('Series', link.series, true);
 
-				embed.setTimestamp();
+				embed.addField('** **', ':heart: Powered by [streetmerchant](https://github.com/jef/streetmerchant) & the efforts of [Kin3tik](https://github.com/kin3tik/streetmerchant) ');
 
 				let notifyText: string[] = [];
 
@@ -72,7 +72,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
 						client,
 						message: client.send(notifyText.join(' '), {
 							embeds: [embed],
-							username: 'streetmerchant'
+							username: 'Hi, looks like you're trying to buy shit?'
 						})
 					});
 				}
