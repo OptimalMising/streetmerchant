@@ -26,12 +26,8 @@ export function sendDiscordMessage(link: Link, store: Store) {
 		(async () => {
 			try {
 				const embed = new Discord.MessageEmbed()
-					.setTitle('_**Stock alert!**_')
-					.setDescription(
-						'** Stock Alert **',
-					)
 					.setThumbnail(
-						'https://raw.githubusercontent.com/jef/streetmerchant/main/docs/assets/images/streetmerchant-logo.png'
+						''
 					)
 					.setColor('#00CC00')
 					.setTimestamp();
@@ -72,7 +68,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
 						client,
 						message: client.send(notifyText.join(' '), {
 							embeds: [embed],
-							username: 'Hi, looks like you're trying to buy shit?'
+							username: 'Hi, looks like youre after stock'
 						})
 					});
 				}

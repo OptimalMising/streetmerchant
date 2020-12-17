@@ -1,4 +1,4 @@
-import {Store} from './store';
+import {Store} from '../store';
 
 export const Umart: Store = {
 	backoffStatusCodes: [403, 429],
@@ -158,6 +158,18 @@ export const Umart: Store = {
 			url:
 				'https://www.umart.com.au/MSI-GeForce-RTX-3080-Ventus-3X-10G-Graphics-Card_56789G.html'
 		},
+//		
+//		
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800',
+			url:
+				'https://www.umart.com.au/Gigabyte-Radeon-RX-6800-Gaming-OC-16GB-Graphics-Card_57571G.html'
+		},
+
+//		
+//
 		{
 			brand: 'amd',
 			model: '5950x',
