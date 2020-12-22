@@ -70,6 +70,13 @@ export const Bpctech: Store = {
 		},
 		{
 			brand: 'evga',
+			model: 'xc3 ultra hybrid',
+			series: '3080',
+			url:
+				'https://www.bpctech.com.au/10g-p5-3888-kr-evga-geforce-rtx-3080-xc3-ultra-hybrid-gaming-10gb-video-card.html'
+		},			
+		{
+			brand: 'evga',
 			model: 'ftw3 ultra hybrid',
 			series: '3080',
 			url:
