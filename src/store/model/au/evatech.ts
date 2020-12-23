@@ -66,7 +66,9 @@ export const Evatech: Store = {
 			series: '3080',
 			url:
 				'https://evatech.com.au/product/6496/zotac-rtx3080-trinity-10gb-gddr6x'
-		},		
+		},
+//
+//		
 		{
 			brand: 'amd',
 			model: '5900x',

@@ -74,6 +74,24 @@ export const MSY: Store = {
 			url:
 				'https://www.msy.com.au/msi-nvidia-geforce-rtx-3080-ventus-3x-10g-oc-10gb-rtx-3080-ventus-3x-oc-pci-e-vga-card'
 		},
+//
+//
+		{
+			brand: 'asrock',
+			model: 'amd reference',
+			series: 'rx6900',
+			url:
+				'https://www.msy.com.au/asrock-radeon-radeon-rx6900xt-16g-16gb-rx-6900-xt-pci-e-vga-card'
+		},
+		{
+			brand: 'sapphire',
+			model: 'amd reference',
+			series: 'rx6900',
+			url:
+				'https://www.msy.com.au/sapphire-radeon-21308-01-20g-16gb-rx-6900-xt-pci-e-vga-card'
+		},		
+//
+//		
 		{
 			brand: 'amd',
 			model: '5950x',

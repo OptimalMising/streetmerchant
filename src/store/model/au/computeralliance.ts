@@ -122,7 +122,34 @@ export const ComputerAlliance: Store = {
 			series: '3080',
 			url:
 				'https://www.computeralliance.com.au/msi-rtx3080-10gb-ventus-3x-oc-pcie-video-card'
+		},	
+//
+//
+		{
+			brand: 'asus',
+			model: 'amd reference',
+			series: 'rx6800',
+			url:
+				'https://www.computeralliance.com.au/asus-rx6800-16gb-pcie-video-card-rx6800-16g'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800',
+			url:
+				'https://www.computeralliance.com.au/gigabyte-rx6800-16gb-gaming-oc-pcie-video-card-gv-r68gaming-oc-16gd'
 		},		
+//
+//
+		{
+			brand: 'gigabyte',
+			model: 'gaming  oc',
+			series: 'rx6800xt',
+			url:
+				'https://www.computeralliance.com.au/gigabyte-rx6800xt-16gb-gaming-oc-pcie-video-card-gv-r68xtgaming-oc-16gd'
+		},
+//
+// 
 		{
 			brand: 'amd',
 			model: '5950x',

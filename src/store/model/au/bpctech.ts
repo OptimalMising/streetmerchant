@@ -180,6 +180,89 @@ export const Bpctech: Store = {
 			url:
 				'https://www.bpctech.com.au/rtx3080-gaming-x-trio-10g-msi-rtx-3080-gaming-x-trio-10g-video-card.html'
 		},
+//
+//
+		{
+			brand: 'asus',
+			model: 'amd reference',
+			series: 'rx6800',
+			url:
+				'https://www.bpctech.com.au/rx6800-16g-asus-radeon-rx-6800-16gb-video-card.html'
+		},	
+		{
+			brand: 'gigabyte',
+			model: 'amd reference',
+			series: 'rx6800',
+			url:
+				'https://www.bpctech.com.au/gv-r68-16gc-b-gigabyte-radeon-rx-6800-16gb-video-card.html'
+		},		
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: 'rx6800',
+			url:
+				'https://www.bpctech.com.au/gv-r68aorus-m-16gd-gigabyte-radeon-rx-6800-aorus-master-16gb-video-card.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800',
+			url:
+				'https://www.bpctech.com.au/gv-r68gaming-oc-16gd-gigabyte-radeon-rx-6800-gaming-oc-16gb-video-card.html'
+		},		
+		{
+			brand: 'msi',
+			model: 'amd reference',
+			series: 'rx6800',
+			url:
+				'https://www.bpctech.com.au/rx-6800-16g-msi-radeon-rx-6800-16gb-video-card.html'
+		},		
+//
+//
+		{
+			brand: 'asrock',
+			model: 'phantom gaming',
+			series: 'rx6800xt',
+			url:
+				'https://www.bpctech.com.au/rx6800xt-pgd-16go-asrock-radeon-rx-6800-xt-phantom-gaming-d-16g-oc-video-card.html'
+		},	
+		{
+			brand: 'gigabyte',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url:
+				'https://www.bpctech.com.au/gv-r68xt-16gc-b-gigabyte-radeon-rx-6800-xt-16gb-video-card.html'
+		},		
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: 'rx6800xt',
+			url:
+				'https://www.bpctech.com.au/gv-r68xtaorus-m-16gd-gigabyte-radeon-rx-6800-xt-aorus-master-16gb-video-card.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'aorus master type-c',
+			series: 'rx6800xt',
+			url:
+				'https://www.bpctech.com.au/gv-r68xtaorus-m-16gc-gigabyte-radeon-rx-6800-xt-aorus-master-type-c-16gb-video-card.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800xt',
+			url:
+				'https://www.bpctech.com.au/gv-r68xtgaming-oc-16gd-gigabyte-radeon-rx-6800-xt-gaming-oc-16gb-video-card.html'
+		},		
+		{
+			brand: 'msi',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url:
+				'https://www.bpctech.com.au/rx-6800-xt-16g-msi-radeon-rx-6800-xt-16gb-video-card.html'
+		},	
+//
+//		
 		{
 			brand: 'amd',
 			model: '5950x',
