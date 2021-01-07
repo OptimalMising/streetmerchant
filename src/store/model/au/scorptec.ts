@@ -7,11 +7,11 @@ export const Scorptec: Store = {
 		inStock: {
 			container: '#delivery-wrapper > div.product-stock-text',
 			text: ['in stock']
-		},
+		},		
 		outOfStock: {
 			container: '#delivery-wrapper > div.product-stock-text',
-			text: ['sold out']
-		}
+			text: ['sold out','SOLD OUT']
+		}		
 	},
 	links: [
 		{
@@ -28,6 +28,13 @@ export const Scorptec: Store = {
 			url:
 				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85382-rog-strix-rtx3080-o10g-gaming'
 		},
+		{
+			brand: 'asus',
+			model: 'strix oc white',
+			series: '3080',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/nvidia/87348-rog-strix-rtx3080-o10g-white'
+		},		
 		{
 			brand: 'asus',
 			model: 'tuf',
@@ -177,18 +184,18 @@ export const Scorptec: Store = {
 		},
 		{
 			brand: 'msi',
-			model: 'ventus 3x oc',
-			series: '3080',
-			url:
-				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85147-geforce-rtx-3080-ventus-3x-10g-oc'
-		},
-		{
-			brand: 'msi',
 			model: 'gaming x trio',
 			series: '3080',
 			url:
 				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85146-geforce-rtx-3080-gaming-x-trio-10g'
 		},
+		{
+			brand: 'msi',
+			model: 'ventus 3x oc',
+			series: '3080',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85147-geforce-rtx-3080-ventus-3x-10g-oc'
+		},		
 		{
 			brand: 'zotac',
 			model: 'amp holo',
@@ -198,18 +205,152 @@ export const Scorptec: Store = {
 		},
 		{
 			brand: 'zotac',
-			model: 'trinity',
-			series: '3080',
-			url:
-				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85038-zt-a30800d-10p'
-		},
-		{
-			brand: 'zotac',
 			model: 'trinity oc',
 			series: '3080',
 			url:
 				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85326-zt-a30800j-10p'
 		},
+		{
+			brand: 'zotac',
+			model: 'trinity',
+			series: '3080',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85038-zt-a30800d-10p'
+		},
+//
+//
+		{
+			brand: 'asus',
+			model: 'tuf',
+			series: 'rx6800',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86758-tuf-rx6800-o16g-gaming'
+		},
+		{
+			brand: 'asus',
+			model: 'strix',
+			series: 'rx6800',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86759-rog-strix-rx6800-o16g-gaming'
+		},		
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: 'rx6800',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/87086-gv-r68aorus-m-16gd'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86761-gv-r68gaming-oc-16gd'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: 'rx6800',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86807-radeon-rx-6800-gaming-x-trio-16g'
+		},		
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: 'rx6800',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86777-11305-01-20g'
+		},
+//
+//		
+		{
+			brand: 'asrock',
+			model: 'phantom gaming',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86775-rx6800xt-pgd-16go'
+		},
+		{
+			brand: 'asrock',
+			model: 'taichi',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86774-rx6800xt-tcx-16go'
+		},
+		{
+			brand: 'asus',
+			model: 'tuf',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86757-tuf-rx6800xt-o16g-gaming'
+		},
+		{
+			brand: 'asus',
+			model: 'strix lc',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86750-rog-strix-lc-rx6800xt-o16g-gaming'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/87085-gv-r68xtaorus-m-16gd'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'aorus master type-c',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/87084-gv-r68xtaorus-m-16gc'
+		},		
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86760-gv-r68xtgaming-oc-16gd'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86805-radeon-rx-6800-xt-gaming-x-trio-16g'
+		},
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86780-11304-02-20g'
+		},
+		{
+			brand: 'sapphire',
+			model: 'nitro+ se',
+			series: 'rx6800xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/86781-11304-01-20g'
+		},
+//
+//
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: 'rx6900xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/87240-11308-01-20g'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6900xt',
+			url:
+				'https://www.scorptec.com.au/product/graphics-cards/amd/87375-gv-r69xtgaming-oc-16gd'
+		},		
+//
+//
 		{
 			brand: 'amd',
 			model: '5950x',
@@ -231,7 +372,6 @@ export const Scorptec: Store = {
 			url:
 				'https://www.scorptec.com.au/product/cpu/amd-socket-am4/86006-100-100000063wof'
 		},
-		
 		{
 			brand: 'amd',
 			model: '5600x',

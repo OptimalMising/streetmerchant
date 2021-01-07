@@ -6,7 +6,7 @@ export const SaveOnIt: Store = {
 	labels: {
 		inStock: {
 			container: '.supplier',
-			text: ['In Stock']
+			text: ['In Stock','1','2','3','4','5','6','7','9','9','10+']
 		},
 		maxPrice: {
 			container: '.goods-price',
@@ -18,9 +18,6 @@ export const SaveOnIt: Store = {
 		}
 	},
 	links: [
-		//
-		// Nvidia 3080
-		//
 		{
 			brand: 'asus',
 			model: 'tuf',
@@ -35,69 +32,20 @@ export const SaveOnIt: Store = {
 			url:
 				'https://www.saveonit.com.au/products/productdetails/65165507'
 		},
-//		{
-//			brand: 'asus',
-//			model: 'strix',
-//			series: '3080',
-//			url:
-//				'https://www.pccasegear.com/products/52274/asus-rog-strix-geforce-rtx-3080-10gb'
-//		},
-//		{
-//			brand: 'asus',
-//			model: 'strix oc',
-//			series: '3080',
-//			url:
-//				'https://www.pccasegear.com/products/51850/asus-rog-strix-geforce-rtx-3080-oc-10gb'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85269-10g-p5-3883-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3 black',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85193-10g-p5-3881-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3 ultra',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85130-10g-p5-3885-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3 ultra hybrid',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/86985-10g-p5-3888-kr'
-//		},					
-//		{
-//			brand: 'evga',
-//			model: 'ftw3',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85194-10g-p5-3895-kr'
-//		},
+		{
+			brand: 'asus',
+			model: 'strix oc',
+			series: '3080',
+			url:
+				'https://www.saveonit.com.au/products/productdetails/65165536'
+		},	
 		{
 			brand: 'evga',
 			model: 'ftw3 ultra',
 			series: '3080',
 			url:
 				'https://www.saveonit.com.au/products/productdetails/65165879'
-		},
-//		{
-//			brand: 'evga',
-//			model: 'ftw3 ultra hybrid',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/86984-10g-p5-3898-kr'
-//		},					
+		},					
 		{
 			brand: 'galax',
 			model: 'sg oc',
@@ -107,11 +55,11 @@ export const SaveOnIt: Store = {
 		},
 		{
 			brand: 'gigabyte',
-			model: 'vision oc',
+			model: 'eagle oc',
 			series: '3080',
 			url:
-				'https://www.saveonit.com.au/products/productdetails/65165520'
-		},
+				'https://www.saveonit.com.au/products/productdetails/65165501'
+		},		
 		{
 			brand: 'gigabyte',
 			model: 'gaming oc',
@@ -121,10 +69,10 @@ export const SaveOnIt: Store = {
 		},
 		{
 			brand: 'gigabyte',
-			model: 'eagle oc',
+			model: 'vision oc',
 			series: '3080',
 			url:
-				'https://www.saveonit.com.au/products/productdetails/65165501'
+				'https://www.saveonit.com.au/products/productdetails/65165520'
 		},
 		{
 			brand: 'gigabyte',
@@ -175,19 +123,12 @@ export const SaveOnIt: Store = {
 			url:
 				'https://www.saveonit.com.au/products/productdetails/65165576'
 		},
-//		{
-//			brand: 'msi',
-//			model: 'suprim x',
-//			series: '3080',
-//			url:
-//				'https://www.pccasegear.com/products/52533/msi-geforce-rtx-3080-suprim-x-oc-10gb'
-//		},
 		{
 			brand: 'msi',
-			model: 'ventus 3x oc',
+			model: 'suprim x',
 			series: '3080',
 			url:
-				'https://www.saveonit.com.au/products/productdetails/65165505'
+				'https://www.saveonit.com.au/products/productdetails/65165827'
 		},
 		{
 			brand: 'msi',
@@ -195,10 +136,25 @@ export const SaveOnIt: Store = {
 			series: '3080',
 			url:
 				'https://www.saveonit.com.au/products/productdetails/65165514'
+		},		
+		{
+			brand: 'msi',
+			model: 'ventus 3x oc',
+			series: '3080',
+			url:
+				'https://www.saveonit.com.au/products/productdetails/65165505'
 		},
-		//
-		// AMD Zen3
-		//
+//
+//
+		{
+			brand: 'asrock',
+			model: 'phantom gaming',
+			series: 'rx6900xt',
+			url:
+				'https://www.saveonit.com.au/product/asrock-rx6900xt-pgd-16go-rx6900xt-16g-phantom-gaming-d'
+		},
+//
+//
 		{
 			brand: 'amd',
 			model: '5950x',

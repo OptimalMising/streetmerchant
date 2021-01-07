@@ -5,8 +5,8 @@ export const WellsTechnology: Store = {
 	currency: '$',
 	labels: {
 		inStock: {
-			container: '.shopify-payment-button__button',
-			text: ['Buy it now','']
+			container: '#addToCartForm-product-template > div.payment-buttons.payment-buttons--small > div > div > div > div',
+			text: ['Buy it now']
 		},
 		maxPrice: {
 			container: '.goods-price',
@@ -39,6 +39,15 @@ export const WellsTechnology: Store = {
 			url:
 				'https://wellstechnology.com.au/products/gigabyte-n3080gaming-oc-10gd-rtx3080-video-card?_pos=3&_sid=bcf224e44&_ss=r&variant=36210887295142'
 		},
+		{
+			brand: 'gigabyte',
+			model: 'aorus xtreme waterforce wb',
+			series: '3080',
+			url:
+				'https://wellstechnology.com.au/products/gigabyte-aorus-rtx3080-xtreme-waterforce-wb?_pos=1&_sid=fd83b064b&_ss=r'
+		},		
+//
+//		
 		{
 			brand: 'amd',
 			model: '5900x',

@@ -83,13 +83,13 @@ export const Centrecom: Store = {
 			url:
 				'https://www.centrecom.com.au/gigabyte-aorus-geforce-rtx-3080-xtreme-waterforce-wb-10g-graphics-card'
 		},		
-		{
-			brand: 'msi',
-			model: 'gaming x trio',
-			series: '3080',
-			url:
-				'https://www.centrecom.com.au/msi-geforce-rtx-3080-gaming-x-trio-10g-graphics-card'
-		},
+//		{
+//			brand: 'msi',
+//			model: 'gaming x trio',
+//			series: '3080',
+//			url:
+//				'https://www.centrecom.com.au/msi-geforce-rtx-3080-gaming-x-trio-10g-graphics-card'
+//		},
 		{
 			brand: 'msi',
 			model: 'suprim x',

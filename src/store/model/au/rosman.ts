@@ -18,9 +18,6 @@ export const Rosman: Store = {
 		}
 	},
 	links: [
-		//
-		// Nvidia 3080
-		//
 		{
 			brand: 'asus',
 			model: 'tuf',
@@ -42,62 +39,6 @@ export const Rosman: Store = {
 			url:
 				'https://rosmancomputers.com.au/asus-nvidia-rog-strix-geforce-rtx-3080-buffed-up-design-with-chart-topping-thermal-performance/'
 		},
-//		{
-//			brand: 'asus',
-//			model: 'strix oc',
-//			series: '3080',
-//			url:
-//				'https://www.pccasegear.com/products/51850/asus-rog-strix-geforce-rtx-3080-oc-10gb'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85269-10g-p5-3883-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3 black',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85193-10g-p5-3881-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3 ultra',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85130-10g-p5-3885-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'xc3 ultra hybrid',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/86985-10g-p5-3888-kr'
-//		},					
-//		{
-//			brand: 'evga',
-//			model: 'ftw3',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/85194-10g-p5-3895-kr'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'ftw3 ultra',
-//			series: '3080',
-//			url:
-//				'https://www.saveonit.com.au/products/productdetails/65165879'
-//		},
-//		{
-//			brand: 'evga',
-//			model: 'ftw3 ultra hybrid',
-//			series: '3080',
-//			url:
-//				'https://www.scorptec.com.au/product/graphics-cards/nvidia/86984-10g-p5-3898-kr'
-//		},					
 		{
 			brand: 'gigabyte',
 			model: 'eagle oc',
@@ -147,9 +88,8 @@ export const Rosman: Store = {
 			url:
 				'https://rosmancomputers.com.au/inno3d-nvidia-rtx-3080-twin-x2-oc-mhz-10gb-gddr6x-3xdp-1xhdmi-atx-3xfans-750w-3-years-warranty/'
 		},
-		//
-		// AMD Zen3
-		//
+//
+//
 		{
 			brand: 'amd',
 			model: '5900x',
