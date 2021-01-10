@@ -1,19 +1,19 @@
 import {Store} from '../store';
 
-export const Rosman: Store = {
+export const RosmanMelb: Store = {
 	backoffStatusCodes: [403, 429],
 	currency: '$',
 	labels: {
 		inStock: {
-			container: '#Availability > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4)',
+			container: '#Availability > div > table > tbody > tr:nth-child(2) > td:nth-child(1)',
 			text: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14']
-			},		
+			},			
 		maxPrice: {
 			container: 'span.price.price--withTax.price--main',
 			euroFormat: false
 		},		
 		outOfStock: {
-			container: '#Availability > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4)',
+			container: '#Availability > div > table > tbody > tr:nth-child(2) > td:nth-child(1)',
 			text: ['ETA','Call Us','0']
 		}
 	},
@@ -126,5 +126,5 @@ export const Rosman: Store = {
 				'https://rosmancomputers.com.au/amd-ryzen-5-5600x-6-core-12-threads-max-freq-4-6ghz-35mb-cache-socket-am4-105w-with-wraith-stealth-cooler/'
 		}		
 	],
-	name: 'rosman'
+	name: 'rosman-melb'
 };

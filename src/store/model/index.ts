@@ -20,6 +20,7 @@ import {PBTech} from './au/pbtech';
 import {Pccg} from './au/pccg';
 import {PlayStation} from './playstation';
 import {Rosman} from './au/rosman';
+import {RosmanMelb} from './au/rosman-melb';
 import {SaveOnIt} from './au/saveonit';
 import {Scorptec} from './au/scorptec';
 import {StormComputers} from './au/storm';
@@ -50,7 +51,8 @@ export const storeList = new Map([
 	[PBTech.name, PBTech],		
 	[Pccg.name, Pccg],
 	[PlayStation.name, PlayStation],
-	[Rosman.name, Rosman],	
+	[Rosman.name, Rosman],
+	[RosmanMelb.name, RosmanMelb],		
 	[SaveOnIt.name, SaveOnIt],
 	[Scorptec.name, Scorptec],
 	[StormComputers.name, StormComputers],	
