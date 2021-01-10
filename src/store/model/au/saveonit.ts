@@ -7,9 +7,9 @@ export const SaveOnIt: Store = {
 		inStock: {
 			container: '.supplier',
 			text: ['In Stock','1','2','3','4','5','6','7','9','9','10+']
-		},
+		},		
 		maxPrice: {
-			container: '.goods-price',
+			container: '.money',
 			euroFormat: false
 		},
 		outOfStock: {
@@ -153,6 +153,13 @@ export const SaveOnIt: Store = {
 			url:
 				'https://www.saveonit.com.au/product/asrock-rx6900xt-pgd-16go-rx6900xt-16g-phantom-gaming-d'
 		},
+		{
+			brand: 'gigabyte',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.saveonit.com.au/product/gigabyte-gv-r69xt-16gc-b-rx6900xt-16gb-video-card'
+		},		
 //
 //
 		{

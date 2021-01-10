@@ -9,7 +9,7 @@ export const PCByte: Store = {
 			text: ['In Stock','IN STOCK']
 		},
 		maxPrice: {
-			container: '.goods-price',
+			container: 'div.price-line.d-flex.mb-3 > div:nth-child(1) > span > span',
 			euroFormat: false
 		},
 		outOfStock: {
@@ -23,7 +23,7 @@ export const PCByte: Store = {
 			model: 'tuf',
 			series: '3080',
 			url:
-				'https://www.pcbyte.com.au/store/product/asus-nvidia-geforce-rtx-3070-tuf-gaming-oc-8gb-video-card-tuf-rtx3070-o8g-gaming-65877'
+				'https://www.pcbyte.com.au/store/product/asus-nvidia-geforce-rtx-3080-tuf-gaming-10gb-video-card-tuf-rtx3080-10g-gaming-56837?search=rtx+3080'
 		},
 		{
 			brand: 'asus',

@@ -7,7 +7,11 @@ export const Scorptec: Store = {
 		inStock: {
 			container: '#delivery-wrapper > div.product-stock-text',
 			text: ['in stock']
-		},		
+		},
+		maxPrice: {
+			container: '#price-price',
+			euroFormat: false
+		},			
 		outOfStock: {
 			container: '#delivery-wrapper > div.product-stock-text',
 			text: ['sold out','SOLD OUT']

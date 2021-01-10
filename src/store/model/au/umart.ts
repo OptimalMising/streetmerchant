@@ -167,7 +167,109 @@ export const Umart: Store = {
 			url:
 				'https://www.umart.com.au/Gigabyte-Radeon-RX-6800-Gaming-OC-16GB-Graphics-Card_57571G.html'
 		},
+//
+//
+		{
+			brand: 'asrock',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Asrock-Radeon-RX-6800-XT-16G-Graphics-Card_57755G.html'
+		},
+		{
+			brand: 'asus',
+			model: 'tuf oc',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Asus-TUF-Radeon-6800-XT-OC-Edition-16GB-Graphics-Card_57569G.html'
+		},			
+		{
+			brand: 'asus',
+			model: 'strix lc',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Asus-ROG-Strix-LC-Radeon-6800-XT-OC-Edition-16GB-Graphics-Card_57570G.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Gigabyte-Radeon-RX-6800-XT-16GB-Graphics-Card_57462G.html'
+		},			
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Gigabyte-Radeon-RX-6800-XT-Gaming-OC-16GB-Graphics-Card_57568G.html'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/MSI-Radeon-RX-6800-XT-Gaming-X-Trio-16G-Graphics-Card_57893G.html'
+		},		
+		{
+			brand: 'sapphire',
+			model: 'amd reference',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Sapphire-Radeon-RX-6800-XT-Nitro+-16G-Graphics-Card_57764G.html'
+		},
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: 'rx6800xt',
+			url:
+				'https://www.umart.com.au/Sapphire-Radeon-RX-6800-XT-SE-Nitro+-16G-Graphics-Card_57765G.html'
+		},
 
+//
+//
+		{
+			brand: 'asrock',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.umart.com.au/Asrock-Radeon-RX-6900-XT-16G-Graphics-Card_57921G.html'
+		},
+		{
+			brand: 'asus',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.umart.com.au/Asus-Radeon-RX-6900-XT-16GB-Graphics-Card_57746G.html'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.umart.com.au/Gigabyte-Radeon-RX-6900-XT-16GB-Graphics-Card_57747G.html'
+		},
+		{
+			brand: 'msi',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.umart.com.au/MSI-Radeon-RX-6900-XT-16GB-Graphics-Card_57749G.html'
+		},
+		{
+			brand: 'sapphire',
+			model: 'amd reference',
+			series: 'rx6900xt',
+			url:
+				'https://www.umart.com.au/Sapphire-Radeon-RX-6900-XT-16GB-Graphics-Card_57748G.html'
+		},		
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: 'rx6900xt',
+			url:
+				'https://www.umart.com.au/Sapphire-Radeon-RX-6900-XT-Nitro+-16G-Graphics-Card_57964G.html'
+		},				
 //		
 //
 		{

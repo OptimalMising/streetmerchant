@@ -9,7 +9,7 @@ export const Dcomp: Store = {
 			text: ['Add to','']
 		},
 		maxPrice: {
-			container: '.goods-price',
+			container: '#prodprice',
 			euroFormat: false
 		},
 		outOfStock: {
@@ -212,12 +212,26 @@ export const Dcomp: Store = {
 				'https://dcomp.com.au/productdetail/3386'
 		},
 		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800xt',
+			url:
+				'https://dcomp.com.au/productdetail/3421'
+		},		
+		{
 			brand: 'msi',
 			model: 'gaming x trio',
 			series: 'rx6800xt',
 			url:
 				'https://dcomp.com.au/productdetail/3387'
-		},		
+		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6900xt',
+			url:
+				'https://dcomp.com.au/productdetail/3422'
+		},			
 //
 //		
 		{

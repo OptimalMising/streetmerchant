@@ -9,7 +9,7 @@ export const MSY: Store = {
 			text: ['In Stock']
 		},
 		maxPrice: {
-			container: '.goods-price',
+			container: '#product-details-form > div > div.product-essential > div.overview > div.prices > div > span',
 			euroFormat: false
 		},
 		outOfStock: {
@@ -162,7 +162,6 @@ export const MSY: Store = {
 			url:
 				'https://www.msy.com.au/msi-radeon-rx-6800-gaming-x-trio-16g-16gb-rx-6800-pci-e-vga-card'
 		},
-
 //
 //		
 		{

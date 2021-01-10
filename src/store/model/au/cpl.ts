@@ -9,6 +9,10 @@ export const Cpl: Store = {
 				'div.product-stock > table > tbody > tr:nth-child(1) > td.stock-value',
 			text: ['In Stock']
 		},
+		maxPrice: {
+			container: '#product_addtocart_form > div.product-shop > div.price-box > span > span',
+			euroFormat: false
+		},		
 		outOfStock: {
 			container:
 				'div.product-stock > table > tbody > tr:nth-child(1) > td.stock-value',
@@ -16,13 +20,6 @@ export const Cpl: Store = {
 		}
 	},
 	links: [
-		{
-			brand: 'asus',
-			model: 'strix oc',
-			series: '3080',
-			url:
-				'https://cplonline.com.au/graphics-cards/geforce-rtx-3080/asus-rog-strix-rtx3080-10g-gaming-graphics-card.html'
-		},
 		{
 			brand: 'asus',
 			model: 'tuf',
@@ -37,6 +34,13 @@ export const Cpl: Store = {
 			url:
 				'https://cplonline.com.au/graphics-cards/geforce-rtx-3080/asus-tuf-rtx3080-o10g-gaming-graphics-card.html'
 		},
+		{
+			brand: 'asus',
+			model: 'strix oc',
+			series: '3080',
+			url:
+				'https://cplonline.com.au/graphics-cards/geforce-rtx-3080/asus-rog-strix-rtx3080-10g-gaming-graphics-card.html'
+		},		
 		{
 			brand: 'evga',
 			model: 'ftw3',
@@ -286,6 +290,34 @@ export const Cpl: Store = {
 			url:
 				'https://cplonline.com.au/asus-radeon-rx6800-xt-16gb-graphics-card.html'
 		},
+		{
+			brand: 'gigabyte',
+			model: 'gaming oc',
+			series: 'rx6800',
+			url:
+				'https://cplonline.com.au/gigabyte-gv-r68gaming-oc-16gd-radeon-rx-6800-gaming-oc-16g.html'
+		},		
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: 'rx6800',
+			url:
+				'https://cplonline.com.au/gigabyte-gv-r68aorus-m-16gd-aorus-radeon-rx-6800-master-16gb.html'
+		},		
+		{
+			brand: 'gigabyte',
+			model: 'aorus master',
+			series: 'rx6800xt',
+			url:
+				'https://cplonline.com.au/gigabyte-gv-r68xtaorus-m-16gd-aorus-radeon-rx-6800-xt-master-16gb.html'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: 'rx6800',
+			url:
+				'https://cplonline.com.au/msi-radeon-rx-6800-gaming-x-trio-16g-graphics-card.html'
+		},		
 		{
 			brand: 'msi',
 			model: 'amd reference',

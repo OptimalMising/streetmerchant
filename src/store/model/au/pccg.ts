@@ -5,9 +5,13 @@ export const Pccg: Store = {
 	currency: '$',
 	labels: {
 		inStock: {
-			container: '.add-to-cart',
+			container: 'div.stock-label.btn-esque',
 			text: ['IN STOCK','SHIPS IN 1-2 DAYS']
 		},
+		maxPrice: {
+			container: 'div.price',
+			euroFormat: false
+		},		
 		outOfStock: {
 			container: 'div.price-box > div.stock-label',
 			text: ['CHECK BACK LATER!']

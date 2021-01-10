@@ -7,17 +7,24 @@ export const Rosman: Store = {
 		inStock: {
 			container: '#Availability > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4)',
 			text: ['1','2','3','4','5','6','7','8','9','10','11','12','13','14']
-		},
+			},		
 		maxPrice: {
-			container: '.goods-price',
+			container: 'span.price.price--withTax.price--main',
 			euroFormat: false
-		},
+		},		
 		outOfStock: {
 			container: '#Availability > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(1) > tr:nth-child(2) > td:nth-child(4)',
 			text: ['ETA','Call Us','0']
 		}
 	},
 	links: [
+		{
+			brand: 'asus',
+			model: 'tuf',
+			series: '3090',
+			url:
+				'https://rosmancomputers.com.au/gigabyte-nvidia-gv-n3090turbo-24gd1/'
+		},
 		{
 			brand: 'asus',
 			model: 'tuf',
@@ -51,7 +58,7 @@ export const Rosman: Store = {
 			model: 'aorus master',
 			series: '3080',
 			url:
-				'https://www.saveonit.com.au/products/productdetails/65165519'
+				'https://rosmancomputers.com.au/gigabyte-nvidia-gv-n3080aorusm-10gd1/'
 		},		
 		{
 			brand: 'gigabyte',
@@ -90,6 +97,13 @@ export const Rosman: Store = {
 		},
 //
 //
+		{
+			brand: 'amd',
+			model: '5950x',
+			series: 'ryzen5950',
+			url:
+				'https://rosmancomputers.com.au/amd-ryzen-9-5950x-16-core-32-threads-max-freq-4-9ghz-72mb-cache-socket-am4-105w-without-cooler/'
+		},
 		{
 			brand: 'amd',
 			model: '5900x',
