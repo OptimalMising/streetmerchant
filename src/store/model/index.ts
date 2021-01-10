@@ -9,16 +9,20 @@ import {Cpl} from './au/cpl';
 import {Dcomp} from './au/dcomp';
 import {Evatech} from './au/evatech';
 import {HarrisTechnology} from './au/harristechnology';
+import {iGameComputer} from './au/igame';
+import {LandmarkComputers} from './au/lmc';
 import {MSY} from './au/msy';
 import {Mwave} from './au/mwave';
 import {Nvidia} from './nvidia';
 import {NvidiaApi} from './nvidia-api';
 import {PCByte} from './au/pcbyte';
+import {PBTech} from './au/pbtech';
 import {Pccg} from './au/pccg';
 import {PlayStation} from './playstation';
 import {Rosman} from './au/rosman';
 import {SaveOnIt} from './au/saveonit';
 import {Scorptec} from './au/scorptec';
+import {StormComputers} from './au/storm';
 import {Store} from './store';
 import {Umart} from './au/umart';
 import {WellsTechnology} from './au/wellstechnology';
@@ -35,17 +39,21 @@ export const storeList = new Map([
 	[Cpl.name, Cpl],
 	[Dcomp.name, Dcomp],
 	[Evatech.name, Evatech],	
-	[HarrisTechnology.name, HarrisTechnology],	
+	[HarrisTechnology.name, HarrisTechnology],
+	[iGameComputer.name, iGameComputer],	
+	[LandmarkComputers.name, LandmarkComputers],		
 	[MSY.name, MSY],	
 	[Mwave.name, Mwave],
 	[Nvidia.name, Nvidia],
 	[NvidiaApi.name, NvidiaApi],
-	[PCByte.name, PCByte],	
+	[PCByte.name, PCByte],
+	[PBTech.name, PBTech],		
 	[Pccg.name, Pccg],
 	[PlayStation.name, PlayStation],
 	[Rosman.name, Rosman],	
 	[SaveOnIt.name, SaveOnIt],
 	[Scorptec.name, Scorptec],
+	[StormComputers.name, StormComputers],	
 	[Umart.name, Umart],
 	[Xbox.name, Xbox],
 	[WellsTechnology.name, WellsTechnology],	
