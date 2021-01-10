@@ -9,7 +9,7 @@ export const Allneeds: Store = {
 			text: ['In Stock']
 		},
 		maxPrice: {
-			container: '.goods-price',
+			container: 'span.price',
 			euroFormat: false
 		},
 		outOfStock: {
@@ -18,6 +18,24 @@ export const Allneeds: Store = {
 		}
 	},
 	links: [
+		{
+			brand: 'asus',
+			model: 'strix oc white',
+			series: '3080',
+			url:
+				'https://allneeds.com.au/asus-geforce-rtx-3080-rog-strix-gaming-oc-10gb-video-card-white-edition-limited-edition'
+		},
+//
+//
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: 'rx6900xt',
+			url:
+				'https://allneeds.com.au/sapphire-nitro-radeon-rx-6900-xt-16gb-video-card-11308-01-20g'
+		},
+//
+//
 		{
 			brand: 'amd',
 			model: '5950x',
