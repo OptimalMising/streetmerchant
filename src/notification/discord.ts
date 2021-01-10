@@ -26,26 +26,24 @@ export function sendDiscordMessage(link: Link, store: Store) {
 		(async () => {
 			try {
 				const embed = new Discord.MessageEmbed()
-					.setThumbnail(
-						''
-					)
-					.setColor('#00CC00')
+					.setTitle([JSON.stringify(link.brand+' '+link.model).replace(/"/ig,'').toUpperCase()+'  ('+link.series+')'])				
+					.setURL(link.url)
+					.setColor('#77dd77')
+					.setFooter('Powered by StreetMerchant & Osir1s for ANZ inStock', 'https://www.freepnglogos.com/uploads/heart/list-emoji-one-symbol-emojis-for-use-facebook-20.png')
 					.setTimestamp();
 
 				embed.addField('Store', store.name, true);
+				embed.addField('Model', link.model, true);
+				embed.addField('Series', link.series, true);	
+					
 				if (link.price)
 					embed.addField(
 						'Price',
 						`${store.currency}${link.price}`,
 						true
-					);
-				embed.addField('Product Page', link.url);
-				if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);
-				embed.addField('Brand', link.brand, true);
-				embed.addField('Model', link.model, true);
-				embed.addField('Series', link.series, true);
-
-				embed.addField('** **', ':heart: Powered by [streetmerchant](https://github.com/jef/streetmerchant) & the efforts of [Kin3tik](https://github.com/kin3tik/streetmerchant) ');
+					);				
+				embed.addField('Product Page', '[Click Here]('+link.url+')');				
+				if (link.cartUrl) embed.addField('Add to Cart', link.cartUrl);				
 
 				let notifyText: string[] = [];
 
@@ -68,7 +66,7 @@ export function sendDiscordMessage(link: Link, store: Store) {
 						client,
 						message: client.send(notifyText.join(' '), {
 							embeds: [embed],
-							username: 'Hi, looks like youre after stock'
+							username: 'ANZ inStock Notifier'
 						})
 					});
 				}
