@@ -9,7 +9,7 @@ export const ComputerAlliance: Store = {
 			text: ['In Stock']
 		},
 		maxPrice: {
-			container: '.goods-price',
+			container: 'span.price',
 			euroFormat: false
 		},
 		outOfStock: {
@@ -18,13 +18,6 @@ export const ComputerAlliance: Store = {
 		}
 	},
 	links: [
-		{
-			brand: 'asus',
-			model: 'strix oc',
-			series: '3080',
-			url:
-				'https://www.computeralliance.com.au/asus-rtx3080-10gb-rog-strix-oc-gaming-pcie-video-card-rog-strix-rtx3080-o10g-gaming'
-		},
 		{
 			brand: 'asus',
 			model: 'tuf',
@@ -40,12 +33,19 @@ export const ComputerAlliance: Store = {
 				'https://www.computeralliance.com.au/asus-rtx3080-10gb-tuf-oc-gaming-pcie-video-card-tuf-rtx3080-o10g-gaming'
 		},
 		{
+			brand: 'asus',
+			model: 'strix oc',
+			series: '3080',
+			url:
+				'https://www.computeralliance.com.au/asus-rtx3080-10gb-rog-strix-oc-gaming-pcie-video-card-rog-strix-rtx3080-o10g-gaming'
+		},		
+		{
 			brand: 'evga',
 			model: 'ftw3 ultra',
 			series: '3080',
 			url:
 				'https://www.computeralliance.com.au/evga-rtx3080-10gb-ftw3-ultra-gaming-pcie-video-card-10g-p5-3897-kr'
-		},
+		},	
 		{
 			brand: 'evga',
 			model: 'xc3 ultra',
@@ -217,7 +217,21 @@ export const ComputerAlliance: Store = {
 				'https://www.computeralliance.com.au/msi-rtx3090-24gb-suprim-x-pcie-video-card'
 		},				
 //
-//	
+//
+		{
+			brand: 'asrock',
+			model: 'amd reference',
+			series: 'rx6800',
+			url:
+				'https://www.computeralliance.com.au/asrock-rx6800-16gb-pcie-video-card'
+		},
+		{
+			brand: 'asus',
+			model: 'strix lc',
+			series: 'rx6800xt',
+			url:
+				'https://www.computeralliance.com.au/asus-rx6800xt-16gb-rog-strix-liquid-cooled-oc-gaming-pcie-video-card'
+		},		
 		{
 			brand: 'gigabyte',
 			model: 'gaming oc',
